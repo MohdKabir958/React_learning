@@ -28,10 +28,10 @@ function App() {
       setCounter(counter + 1)
     }
   }
+
   const removeValue = () => {
     if (counter === 0) {
       rmbtn.disabled = true;
-      let flash = document.querySelector('.flash')
       flash.innerHTML = '<h2> Value cannot cross 0</h2>';
       flash.style.color = 'red';
     }
@@ -39,6 +39,7 @@ function App() {
       setCounter(counter - 1)
     }
   }
+  
 
   const resetValue = () => {
     addbtn.disabled = false;
