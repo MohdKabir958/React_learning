@@ -1,0 +1,7 @@
+{
+    "css.validate":false,
+    "taiwindCSS.includeLanguages":{
+        "javascript":"javascript",
+        "html":"html"
+    }
+}
