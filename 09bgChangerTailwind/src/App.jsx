@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 
 function App() {
   const [color, setColor] = useState("olive")
@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="main w-screen h-screen duration-200"
         style={{ backgroundColor: color }}>
-        <h1 className='text-4xl'>Project BG Changer Using Vite and Tailwind</h1>
+        <h1 className='text-4xl text-center '>Project BG Changer Using Vite and Tailwind</h1>
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
           <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>
             <button
